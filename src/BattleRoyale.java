@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.Semaphore;
 
 public class BattleRoyale {
@@ -29,6 +30,7 @@ public class BattleRoyale {
     public void calculawin(HashMap points, Jugadores primer){
         int ganador = 0;
         System.out.println(points);
+        /*Queria buscar el maximo del hashmap y printear la clave que es donde estaba  el */
     }
 
 }
